@@ -48,19 +48,3 @@ public:
 	}
 
 };
-
-
-int main()
-{
-	Trie x;
-	x.insert("varun");
-	x.insert("abbas");
-
-	string s;
-	cin>>s;
-	x.insert(s);
-	cin>>s;
-	cout<<x.find(s);
-
-	return 0;
-}	
